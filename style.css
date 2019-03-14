@@ -19,3 +19,30 @@ green #669A23
 lightbrown #957B54
 dark #22332D
 */
+
+/* ----------- HEADER STYLE ----------- */
+/* #header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #3b5998;
+} */
+
+
+/* ----------- FOOTER STYLE ----------- */
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #22332D;
+    color: #E9EAE5;
+}
+
+#footer a {
+    color: #669A23;
+    text-decoration: none;
+}
