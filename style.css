@@ -8,9 +8,13 @@ nav {
     font-weight: 600;
 }
 
+h2 {
+    font-family: Nova Flat;
+    color: #669A23;
+}
+
 h3, h4 {
     font-family: Orbitron;
-    /* font-weight: 600; */
     color: #838A8C;
 }
 
@@ -49,6 +53,7 @@ dark #22332D
     padding: 30px;
     text-align: center;
     color: #E9EAE5;
+    margin-top: 50px;
 
     /* background-color: #d8dfea; */
 }
