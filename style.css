@@ -8,6 +8,11 @@ nav {
     font-weight: 600;
 }
 
+h1 {
+    font-family: Nova Flat;
+    color: #957B54;
+}
+
 h2 {
     font-family: Nova Flat;
     color: #669A23;
@@ -53,7 +58,7 @@ dark #22332D
     padding: 30px;
     text-align: center;
     color: #E9EAE5;
-    margin-top: 50px;
+    margin-top: 40px;
 
     /* background-color: #d8dfea; */
 }
