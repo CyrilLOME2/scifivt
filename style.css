@@ -11,20 +11,30 @@ nav {
 h1 {
     font-family: Nova Flat;
     color: #957B54;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 h2 {
     font-family: Nova Flat;
     color: #669A23;
+    text-align: center;
 }
 
 h3, h4 {
     font-family: Orbitron;
     color: #838A8C;
+    text-align: center;
+    margin-bottom: 15px;
 }
 
 p {
-    font-family: Aldrich;
+    font-family: Aldrich; font-weight: 300;
+}
+
+b {
+    color: #957B54;
+    font-weight: 400;
 }
 
 a {
@@ -52,11 +62,11 @@ dark #22332D
 
 /* ----------- CONTENT STYLE ----------- */
 #content {
-    max-width: 1300px;
+    max-width: 1000px;
     margin-right: auto;
     margin-left: auto;
     padding: 30px;
-    text-align: center;
+    text-align: start;
     color: #E9EAE5;
     margin-top: 40px;
 
@@ -65,7 +75,7 @@ dark #22332D
 
 /* ----------- FOOTER STYLE ----------- */
 #footer {
-    position: fixed;
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
