@@ -73,6 +73,26 @@ dark #22332D
     /* background-color: #d8dfea; */
 }
 
+span.next a {
+    padding: 8px;
+    border: #957B54 2px solid;
+    border-radius: 10px;
+    color: #22332D;
+    background-color: #957B54;
+    font-family: Orbitron;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+span.next a:hover {
+    padding: 10px;
+    border-color: #E9EAE5;
+    color: #22332D;
+    background-color: #E9EAE5;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 /* ----------- FOOTER STYLE ----------- */
 #footer {
     position: relative;
