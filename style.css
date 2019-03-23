@@ -30,6 +30,12 @@ h3, h4 {
 
 p {
     font-family: Aldrich; font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+i {
+    color: #838A8C;
 }
 
 b {
@@ -91,6 +97,21 @@ span.next a:hover {
     background-color: #E9EAE5;
     text-decoration: none;
     cursor: pointer;
+}
+
+.image-container {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.image-container img {
+    flex : 0 1 20%;
+}
+
+.image-container div {
+    padding-left: 10px;
+    flex : 1 1 75%;
 }
 
 /* ----------- FOOTER STYLE ----------- */
